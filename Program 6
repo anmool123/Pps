@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int a = 15, b = 20;
+    float c = 15.5, d = 20.5;
+
+    printf ("a=15\tb=20\tc=15.5\td=20.5\n");
+    printf("++a = %d \n", ++a);
+    printf("--b = %d \n", --b);
+    printf("++c = %f \n", ++c);
+    printf("--d = %f \n", --d);
+
+    return 0;
+} 
