@@ -1,0 +1,37 @@
+#include <stdio.h>
+int main()
+{
+ char n;
+ int a,b;
+ printf("Choose the operation\n");
+ printf("Addition= +\n");
+  printf("Subtraction= -\n");
+  printf("Multiplication= *\n");
+  scanf("%c",&n);
+   printf("Enter the number=\n",a,b);
+   scanf("%d%d",&a,&b);
+   switch(n)
+   {
+       case '+':
+       //Addition
+       {
+           printf("Sum of two numbers is:\n");
+           printf("%d and %d is=%d",a,b,a+b);
+           break;
+       }
+       case '-':
+       //Subtraction
+       {
+           printf("Difference of two numbers is:\n");
+           printf("%d and %d is=%d",a,b,a-b);
+           break;
+       }
+       case '*':
+       //Multiplication
+       {
+           printf("Product of two numbers is:\n");
+           printf("%d and %d is=%d",a,b,a*b);
+           break;
+       }
+   }
+} 
